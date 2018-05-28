@@ -44,6 +44,8 @@ SENDGRID_API_KEY=[sendgrid api key]
 SENDGRID_FROM_ADDRESS=[some email address]
 ```
 
+If the --address cli option is not used then the sendgrid enviroment variables are not required
+
 ### Running
 
 Assuming ${GOPATH}/bin is in your $PATH then the cli can be used by running
